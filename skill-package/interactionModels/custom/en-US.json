@@ -1,0 +1,106 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "description",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "DescribePictureIntent",
+          "samples": [
+            "I want a {description}",
+            "Create a {description} for me",
+            "Make a {description}",
+            "I'd like to draw a {description}",
+            "Can you make a {description}",
+            "Draw me a {description}",
+            "I want {description}",
+            "Make me a {description}",
+            "Create {description}",
+            "I want a picture of a {description}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "modification",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "ModifyPictureIntent",
+          "samples": [
+            "Make it {modification}",
+            "Change it to {modification}",
+            "Add {modification}",
+            "Make the {modification} bigger",
+            "Make the {modification} smaller",
+            "Can you add {modification}",
+            "Remove the {modification}",
+            "Change the {modification}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ApproveImageIntent",
+          "samples": [
+            "Yes I like it",
+            "That's perfect",
+            "Yes",
+            "I love it",
+            "That looks great",
+            "Perfect",
+            "Good",
+            "I like it"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PrintImageIntent",
+          "samples": [
+            "Print it",
+            "I want to print this",
+            "How do I print it",
+            "Can I print this",
+            "Print the coloring page",
+            "Show me the QR code",
+            "How do I get this on my phone"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StartOverIntent",
+          "samples": [
+            "Start over",
+            "New picture",
+            "Create something else",
+            "Make a new one",
+            "I want something different",
+            "Let's try again",
+            "Begin again"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "coloring book creator"
+    }
+  }
+}
